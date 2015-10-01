@@ -4,8 +4,8 @@
 #                        Today is weekday.
 
 myhostname=`hostname`
-mytitle="Supreme Commander"
-myname="Dennis"
+mytitle="Scripting Student"
+myname="Ana"
 weekday=$(date +%A)
 
 echo "Welcome to planet $myhostname, $mytitle $myname!"
