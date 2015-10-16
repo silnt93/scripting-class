@@ -3,6 +3,7 @@
 # this script demonstrates using special variables
 
 echo 'My pid ($$) is ' $$
+echo "The command name was $0"
 echo 'My command ($0) was ' `basename $0`
 echo 'I had ($#) ' $# 'things on my command line'
 echo "They were: $@"
